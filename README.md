@@ -1,3 +1,5 @@
+## Customer Intelligence Engine
+
 **Customer segmentation, retention analysis & churn prediction using Python**
 
 I wanted to build something more useful than another classification model with an accuracy score, so I worked on a customer intelligence project using the UCI online retail dataset. The idea was to take raw transaction data and turn it into something a business could actually use: understand who its customers are, see how their purchasing behavior differs, track whether they come back and identify customers who might stop buying.
