@@ -41,6 +41,7 @@ RFM stands for **Recency, frequency and monetary value**. It is a simple way to 
 For each customer, I calculate:
 
 | Feature | Calculation |
+-------------------------
 | Recency | Days since the customer's most recent purchase |
 | Frequency | Number of distinct invoices |
 | Monetary | Total sales attributed to the customer |
@@ -128,6 +129,7 @@ The code also ranks customers in the held-out test set by predicted churn risk a
 ## Tech stack
 
 | Library | How I use it |
+--------------------------
 | `pandas` | Cleaning, aggregation, RFM features and cohort tables |
 | `NumPy` | Numerical transformations and feature preparation |
 | `scikit-learn` | K-means, PCA, scaling, logistic regression and model evaluation |
