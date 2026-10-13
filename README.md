@@ -43,7 +43,9 @@ For each customer, I calculate:
 | Feature | Calculation |
 -------------------------
 | Recency | Days since the customer's most recent purchase |
+
 | Frequency | Number of distinct invoices |
+
 | Monetary | Total sales attributed to the customer |
 
 The reference date is based on the latest invoice date in the dataset, with recency calculated in days.
