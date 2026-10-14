@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-#we load and clean data
+# we load and clean data
 zip_path = "/content/online+retail.zip"
 with zipfile.ZipFile(zip_path) as archive:
     name = next(n for n in archive.namelist() if n.lower().endswith(('.xlsx', '.xls')))
