@@ -33,7 +33,7 @@ df["Sales"] = df["Quantity"] * df["UnitPrice"]
 last_date = df["InvoiceDate"].max()
 print(f"Loaded {len(df):,} items | {df['CustomerID'].nunique():,} customers | Data up to: {last_date:%Y-%m-%d}\n")
 
-#RFM Analysis & K-Means Clustering
+# RFM Analysis & K-Means Clustering
 rfm = df.groupby("CustomerID").agg(
     LastPurchase=("InvoiceDate", "max"),
     Frequency=("InvoiceNo", "nunique"),
