@@ -141,6 +141,7 @@ The code also ranks customers in the held-out test set by predicted churn risk a
 | `SciPy` | Kruskal–Wallis statistical test |
 
 | `Plotly Express` | Interactive customer segmentation and retention visualizations |
+
 | `openpyxl` | Reading the Excel dataset through pandas |
 
 ## Run it locally
