@@ -133,7 +133,9 @@ The code also ranks customers in the held-out test set by predicted churn risk a
 | Library | How I use it |
 --------------------------
 | `pandas` | Cleaning, aggregation, RFM features and cohort tables |
+
 | `NumPy` | Numerical transformations and feature preparation |
+
 | `scikit-learn` | K-means, PCA, scaling, logistic regression and model evaluation |
 | `SciPy` | Kruskal–Wallis statistical test |
 | `Plotly Express` | Interactive customer segmentation and retention visualizations |
