@@ -42,7 +42,7 @@ rfm = df.groupby("CustomerID").agg(
 rfm["Recency"] = (last_date.normalize() + pd.Timedelta(days=1) - rfm["LastPurchase"]).dt.days
 rfm = rfm[["Recency", "Frequency", "Monetary"]].reset_index()
 
-#we normalize and Cluster
+# we normalize and cluster
 features = np.log1p(rfm[["Recency", "Frequency", "Monetary"]])
 scaled = StandardScaler().fit_transform(features)
 rfm["Segment"] = KMeans(n_clusters=4, random_state=42, n_init=10).fit_predict(scaled).astype(str)
